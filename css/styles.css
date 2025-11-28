@@ -1,0 +1,324 @@
+/*Sets the font as stated throughout the website*/body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(236,236,163);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*Sets the font size for all <p> elements to large*/p {
+    font-size:large;
+}
+/*Sets the font style of <h2> elements throughout the website*/h2 {
+    font-family: papyrus, fantasy;
+}
+/*For the table found in the homepage undeneath the GIF*/table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    background-color:rgb(155, 224, 64);
+}   
+/*Sets the header and nav bar to the top of the page even when scrolling*/header {
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: rgb(96,124,60);
+    border: solid gray;
+    height: 150px;
+}
+/*The website's logo*/#logo {
+    width: 150px;
+    height: 150px;
+    position:absolute;
+}
+/*Nav buttons for homepage, what you can do, why we chose this, about us, and back to top button*/.btns {
+    font-size: large;
+    text-align: center;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    width: 10%;
+    padding: 10px;
+    margin: 3%;
+    border-radius: 5px;
+    float: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s, padding 0.3s;
+}
+/*When any of the 5 buttons are hovered over with a cursor, a transition of transformations will occur*/.btns:hover {
+    background-color: rgb(171,195,47);
+    color: black;
+    transform:scale(1.2) rotate(3deg);
+    padding: 12px;
+}
+/*Separates the homepage nav button from the website logo by 20%*/#navbtn1 {
+    margin-left: 20%;
+}
+
+/* Homepage css */
+/*Sets the background color of the main content*/#firstpagebody {
+    margin: 0 10% 0 10%;
+    background-color: rgb(126, 172, 66);
+}
+/*Sets the title of the website with a background*/#title1 {
+    clear: left;
+    text-align: center;
+    padding: 100px;
+    background-image: url(../images/Bangui_Bay_Wind_Farm.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 90%;
+    font-size: 1.5vw;
+}
+/*Applies a smaller white background and a similar font style for <h2> elements to the text*/#title1 h1 {
+    font-family:papyrus, fantasy;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 50%;
+    margin: auto;
+    border-radius: 15px;
+}
+/*Positions the content of the background of the problem*/#background {
+    width: 48%;
+    float: right;
+    margin-right: 10%;
+    text-align: justify;
+}
+/*Positions the content of the statistics related to the advocacy*/#statistics {
+    text-align: center;
+    margin-top: 58px;
+}
+/*Positions the table below the center of the GIF*/table {
+    margin-left: 6%;
+    margin-top: 10px;
+}
+/*Positions the GIF*/#statisticsimg {
+    width: 550px;
+    height: 300px;
+    margin-top: 20px;
+}
+/*Positions the content of what the problem is being done in our country*/#inthePhilippines {
+    clear: both;
+    padding: 50px 10%;
+}
+/*Positions the image of MTerra solar project to the right*/#solarprojectimg {
+    float: right;
+    width: 50%;
+}
+/*Underneath the image of the MTerra solar project, states the source of the image*/#imgsrc {
+    font-size: small;
+}
+/*Positions the content of steps to a greener future*/#greenerfuture {
+    float: left;
+    width: 35%;
+    margin-left: 10%;
+}
+/*Sets the margin separating the content of the background and the content of steps to a greener future*/#part1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*Sets the margin separating the content of steps to a greener future from the content above and below it*/#part2 {
+    clear: both;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*Sets the background color of the references*/footer {
+    background-color: rgb(181,229,80);
+    padding: 10px;
+    margin-top: 3%;
+}
+
+/* What you can do css */
+/*Aligns the content to the center and makes the text justified*/#intro {
+    margin: 0 15% 0 15%;
+    text-align: justify;
+}
+/*Sets the width of the content of the intro in order to position itself to the left of the image*/#intro p {
+    width: 57%;
+    text-indent: 10%;
+    margin-right: 5%;
+    float: left;
+}
+/*Sets the margin, width, and height of the image*/#intro img {
+    width: 500px;
+    height: 400px;
+    margin: 5% 0 5% 0;
+}
+/*Title of the 2nd page, "What you can do"*/#title2 {
+    text-align: center;
+    padding: 50px 0;
+    font-size: 2vw;
+}
+/*Sets the width in order to position the list of websites to its right, as well as making the text justified*/#benefits {
+    width: 40%;
+    margin-left: 15%;
+    text-align: justify;
+    float: left;
+}
+/*Title of the secondary content, "benefits of transitioning to clean energy"*/#benefits h2 {
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+/*Applies an indent, the space before a paragraph, to every even nth of <p> elements in #benefits*/#benefits p:nth-of-type(even) {
+    margin-top: 20px;
+    text-indent: 10%;
+}
+/*Makes the text bold to emphasize the benefits, applies it to every odd nth of <p> elements*/#benefits p:nth-of-type(odd) {
+    font-weight: bold;
+}
+/*A side bar listing websites to visit*/#websites {
+    float:left;
+    border: 10px groove green;
+    background-image: url(../images/672795c7-c888-43b1-8b72-c0915fa9ac87.jpg);
+    background-size:cover;
+    width: 30%;
+    margin-left: 3%;
+    height: 400px;
+}
+/*Positions the title of the side bar to the center as well as applying a highlight behind it*/#websites h2 {
+    text-align: center;
+    background-color: rgba(96,124,60,0.8);
+    width: 40%;
+    border-radius: 10px;
+    margin: 8% auto 0 auto;
+}
+/*Sets the highlight behind the list of websites*/#websites ul {
+    background-color: rgba(96,124,60,0.8);
+    width: 80%;
+    height: 200px;
+    margin: 5% auto 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+/*When any of the website links are hovered over, the text becomes black*/#websites a:hover {
+    color: black;
+}
+/*LinkedIn sprite*/#sprite1 {
+	background: url('../images/social-media-icon-sprites.jpg') no-repeat -33px -140px;
+    background-size: 400px 400px;
+	width: 38px;
+	height: 38px;
+    float: left;
+    margin: 3% 1% 0 40%;
+    transition: transform .3s;
+}
+/*LinkedIn sprite when hovered over becomes its black colored version and slightly larger*/#sprite1:hover {
+	background: url('../images/social-media-icon-sprites.jpg') no-repeat -33px -330px;
+    background-size: 400px 400px;
+	width: 38px;
+	height: 38px;
+    transform: scale(1.1);
+}
+/*Facebook sprite*/#sprite2 {
+	background: url('../images/social-media-icon-sprites.jpg') no-repeat -33px -33px;
+    background-size: 400px 400px;
+	width: 38px;
+	height: 38px;
+    float: left;
+    margin: 3% 0 0 0;
+    transition: transform .3s;
+}
+/*Facebook sprite when hoeverd over becomes its black colored version and slightly larger*/#sprite2:hover {
+	background: url('../images/social-media-icon-sprites.jpg') no-repeat -33px -223px;
+    background-size: 400px 400px;
+	width: 38px;
+	height: 38px;
+    transform: scale(1.1);
+}
+/*Positions the back to top button in the middle*/#btt {
+    margin-left: 45%;
+}
+
+/* Why we chose this css */
+/*Title of the 3rd page, "Why we chose this"*/#title3a {
+    text-align: center;
+    font-size: 2vw; 
+    padding: 50px 0;
+}
+/*Title of the realization content*/#title3b {
+    text-align: center;
+    font-size: 2vw; 
+    padding: 50px 0;
+    clear: both;
+}
+/*Sets the width of all the content in the current page*/#thirdpagebody {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 5%;
+}
+/*Positions and justifies the text*/#impacts p{
+    width: 70%;
+    text-align: justify;
+    text-indent: 10%;
+    float: left;
+    margin-right: 4%;
+}
+/*Additional facts about renewable energy set to the right of the content*/#facts {
+    width: 25%;
+    border: 5px dotted green;
+    background-color: rgb(181,229,80);
+    padding-top: 25px;
+    height: 300px;
+    float: left;
+    animation-name: facts;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+/*Animates the background of the list of facts*/@keyframes facts {
+    0% {background-color: rgb(181,229,80)}
+    25% {background-color: rgb(253, 255, 130);}
+    50% {background-color: rgb(80, 219, 229);}
+    75% {background-color: rgb(155, 155, 155);}
+    100% {background-color: rgb(181,229,80);}
+}
+/*Positions the title of the list in the center*/#facts h2 {
+    text-align: center;
+}
+/*Positions and justifies the content of the realization part*/#realization p {
+    text-align: justify;
+    text-indent: 10%;
+    width: 70%;
+    margin-right: 4%;
+    float: left;
+}
+/*Positions the images to the right of the content and applies a dark green border around each image*/#realization img {
+    width: 155px;
+    height: 155px;
+    margin: 4px 4px 4px 4px;
+    border: solid rgb(96,124,60);
+}
+
+/* About Us css */
+/*Positions the first portion of content in the center*/#team {
+    clear: left;    
+    margin-left: 15%;
+    margin-right: 15%;
+}
+/*Centers the title of the current page*/#title4 {
+    text-align: center;
+    font-size: 2vw; 
+    padding: 50px 0;
+}
+/*Centers the title of the "about the aurthor" part*/#authortitle {
+    text-align: center;
+    font-size: 2vw;
+}
+/*Aligns the content in the center*/#author {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+/*Positions an image of the author to the left of the content about the author*/#authorimg {
+    float: left;
+    width: 400px;
+    height: 300px;
+    margin-right: 20px;
+}
+/*Justifies the text about the author*/#aboutauthor {
+    text-align: justify;
+}
+/*Positions related links underneath the content about the author*/section#links {
+    clear:both;
+    margin-left: 15%;
+}
+/*When the link under "related links" is hovered over, the text becomes black*/#link a:hover {
+    color: black;
+}
+/*Clears both sides so as to not let floated elements be beside it*/#contact {
+    clear: both;
+}
